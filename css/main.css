@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Acme');
+*{
+  font-family: 'Acme', sans-serif;
+  margin:0;
+  padding:0;
+  border: none;
+}
+
+.sidebartitle{
+  margin-bottom:10px;
+  height: 100%;
+  text-align: center;
+  font-size: 2em;
+  color:white;
+  background-color: rgb(67,57,29);
+  border-bottom: 2px solid;
+  border-color: white;
+  text-shadow: 6px 2px 8px black;
+  padding-bottom: 5px;
+}
+.sidebar{
+  padding-bottom: 10000px;
+  margin-bottom: -10000px;
+  text-align: center;
+  width:20%;
+  float:left;
+  background-color: rgba(79,57,63, 0.6);
+}
+.sidebar ul, .sidebar ul li a{
+  text-align: left;
+  padding-left: 2%;
+  font-size: 1.5em;
+  color:white;
+  text-decoration: none;
+  text-shadow: 6px 2px 8px black;
+}
+.sidebar ul li {
+  background-color: rgb(67,57,29);
+  border-color: white;
+  border-width: 2px;
+  border-style: solid;
+  margin-bottom:2px;
+  border-radius: 5px;
+}
+.sidebar ul li:hover {
+  background-color: rgb(221, 198, 135);
+}
+.profilepicture{
+  margin-bottom:10px;
+  border-radius: 50%;
+}
+.bgimage1{
+  background: url(../assets/bg.jpeg);
+  background-size: 100% auto;
+}
+.brownbgcontent{
+  border-radius: 5px;
+  box-shadow: 6px 6px rgba(0,0,0,0.7);
+  width: 75%;
+  float: right;
+  color:white;
+  background-color: rgba(67,57,29, 0.8);
+  margin-top:2%;
+  margin-right:2%;
+  padding-left:1%;
+}
+.underline{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+  border-bottom: 2px solid white;
+  text-shadow: 6px 2px 8px black;
+}
+.container{
+  height:100%;
+  overflow: hidden;
+}
+#homepagetoppane{
+  margin-top: 4%;
+}
+#homepagebottompane{
+  margin-bottom: 120px;
+}
