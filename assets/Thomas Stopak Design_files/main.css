@@ -57,6 +57,8 @@
 .brownbgcontent{
   border-radius: 5px;
   box-shadow: 6px 6px rgba(0,0,0,0.7);
+  width: 75%;
+  float: right;
   color:white;
   background-color: rgba(67,57,29, 0.8);
   margin-top:2%;
@@ -78,11 +80,11 @@
   margin-top: 4%;
 }
 #homepagebottompane{
-  margin-bottom: 35px;
+  margin-bottom: 120px;
 }
 .contentcol{
-  width: 75%;
+  clear: both;
   padding-bottom: 10000px;
   margin-bottom: -10000px;
-  float: right;
+
 }
